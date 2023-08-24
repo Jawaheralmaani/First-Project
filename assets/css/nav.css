@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+   @media screen and (max-width:600px) and(max-width:1024px) {
+    nav ul{
+        width: 100%;
+        top:75px;
+        position: absolute;
+        flex-direction: column;
+        background-color: aquamarine;
+        text-align: center;
+        border: white;
+        list-style-type: style type;
+    }
+   
+    nav ul li {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+ 
